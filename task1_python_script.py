@@ -64,7 +64,6 @@ def save_file(text):
     with open(fname,'w',encoding="utf-8") as f:
         f.write(text)
 
-
     # Code ends here
 
     print(f'File saved in directory {fname}')
